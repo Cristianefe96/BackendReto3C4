@@ -43,6 +43,10 @@ public class CleaningPService {
                 if (cleanProd.getCategory() != null) {
                     cleanProdDb.get().setCategory(cleanProd.getCategory());
                 }
+
+                if (cleanProd.getPresentation() != null) {
+                    cleanProdDb.get().setPresentation(cleanProd.getPresentation());
+                }
                 
                 if (cleanProd.getDescription() != null) {
                     cleanProdDb.get().setDescription(cleanProd.getDescription());
